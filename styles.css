@@ -94,6 +94,30 @@ p {
     font-size: 18px;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #E5E7EB;
+    padding: 0 150px;
+    margin-top: 50px;
+}
+
+.quote-container .person {
+    align-self: flex-end;
+    margin-right: 100px;
+}
+
+.quote-container .quote {
+    font-size: 36px;
+}
+
+.quote-container .person {
+    font-size: 20px
+}
+
 
 
 
