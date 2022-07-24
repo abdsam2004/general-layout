@@ -118,6 +118,45 @@ p {
     font-size: 20px
 }
 
+.modal-container {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+}
+
+.modal {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px 0;
+}
+
+.section-one {
+    font-size: 24px;
+}
+
+.modal button {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 5px 40px;
+    font-size: 18px;
+    color: white;
+    background-color: #3882F6;
+}
+
+.copyright {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+
 
 
 
